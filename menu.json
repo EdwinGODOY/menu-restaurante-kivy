@@ -1,0 +1,10 @@
+{
+  "productos": [
+    { "nombre": "Pezcado", "precio": 1.00, "categoria": "Comidas" },
+    { "nombre": "Pollo", "precio": 6.00, "categoria": "Comidas" },
+    { "nombre": "Refresco", "precio": 1.00, "categoria": "Bebidas" },
+    { "nombre": "Jugo Natural", "precio": 1.00, "categoria": "Bebidas" },
+    { "nombre": "Pastel de Leche", "precio": 5.00, "categoria": "Postres" },
+    { "nombre": "Helado", "precio": 3.50, "categoria": "Postres" }
+  ]
+}
