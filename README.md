@@ -2,7 +2,7 @@ Menú de Restaurante
 
 Aplicación desarrollada en Python usando Kivy.
 Muestra un menú de restaurante con categorías y productos,
-cargados desde un archivo JSON.
+cargados desde un archivo JSON 
 
 Funcionalidades
 - Pantalla inicial con nombre del restaurante
