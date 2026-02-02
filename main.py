@@ -51,7 +51,9 @@ class CategoriasScreen(Screen):
 
     def on_enter(self):
         self.contenedor.clear_widgets()
-        categorias = set(p["categoria"] for p in App.get_running_app().productos)
+         categorias = sorted(
+            set(p["categoria"] for p in App.get_running_app().productos)
+        )
 
         for categoria in categorias:
             btn = Button(text=categoria, size_hint_y=None, height=50)
@@ -124,3 +126,4 @@ class MenuApp(App):
 
 if __name__ == "__main__":
     MenuApp().run()
+
