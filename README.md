@@ -24,5 +24,4 @@ Ejecución del proyecto
    python main.py
 
 Ejecutable
-El archivo ejecutable (.exe) se encuentra en la sección **Releases**
-del repositorio.
+El archivo ejecutable (.exe) se se encuentra en la carpeta ZIP para descargar i instalar  en windows 
