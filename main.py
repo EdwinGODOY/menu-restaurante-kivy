@@ -101,6 +101,11 @@ class ProductosScreen(Screen):
                 lbl = Label(text=texto, size_hint_y=None, height=40)
                 self.lista.add_widget(lbl)
 
+    if not self.lista.children:
+    self.lista.add_widget(
+        Label(text="No hay productos disponibles", size_hint_y=None, height=40)
+    )
+
     def volver(self, instance):
         self.manager.current = "categorias"
 
@@ -126,4 +131,5 @@ class MenuApp(App):
 
 if __name__ == "__main__":
     MenuApp().run()
+
 
